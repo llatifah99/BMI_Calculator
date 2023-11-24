@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Arial", sans-serif;
+  background-image: url("bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container {
+  margin-top: 50px;
+  width: 500px;
+}
+h1 span {
+  color: red;
+}
+h1,
+h4 {
+  text-align: center;
+}
+h4 {
+  margin-bottom: 40px;
+}
+input {
+  width: 100%; /* Lebar input box 100% dari lebar parentnya */
+  padding: 10px; /* Padding di dalam input box */
+  margin: 8px 0; /* Jarak di sekitar input box */
+  box-sizing: border-box; /* Menyertakan padding dan border dalam total lebar dan tinggi */
+  border: 1px solid #ccc; /* Garis batas dengan warna abu-abu */
+  border-radius: 4px; /* Sudut yang dibulatkan */
+}
+input:hover {
+  border-color: #555; /* Warna garis batas berubah saat di-hover */
+}
+
+/* CSS untuk input box ketika mendapatkan fokus */
+input:focus {
+  outline: none; /* Menghapus garis fokus default */
+  border-color: #237fb7; /* Warna garis batas berubah saat mendapatkan fokus */
+  box-shadow: 0 0 5px rgba(76, 86, 175, 0.5); /* Efek bayangan saat mendapatkan fokus */
+}
+
+/* CSS untuk tombol */
+button {
+  display: inline-block; /* Membuat tombol menjadi elemen blok di dalam kontennya */
+  padding: 10px 20px; /* Padding di dalam tombol */
+  font-size: 16px; /* Ukuran font */
+  text-align: center; /* Pusatkan teks di dalam tombol */
+  text-decoration: none; /* Hilangkan dekorasi tautan (underline) */
+  cursor: pointer; /* Ubah kursor saat di atas tombol */
+  border: 1px solid #216086; /* Garis batas dengan warna hijau */
+  border-radius: 4px; /* Sudut yang dibulatkan */
+  background-color: #237fb7; /* Warna latar belakang tombol */
+  color: #ffffff; /* Warna teks di dalam tombol */
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+/* CSS untuk tombol ketika di-hover */
+button:hover {
+  background-color: #0e5480; /* Warna latar belakang berubah saat di-hover */
+  border-color: #237fb7; /* Warna garis batas berubah saat di-hover */
+}
+
+/* CSS untuk tombol ketika mendapatkan fokus */
+button:focus {
+  outline: none; /* Menghapus garis fokus default */
+  box-shadow: 0 0 5px rgb(70, 49, 148); /* Efek bayangan saat mendapatkan fokus */
+}
+
+/* CSS untuk tombol ketika diklik */
+button:active {
+  background-color: #237fb7; /* Warna latar belakang berubah saat diklik */
+  border-color: #237fb7; /* Warna garis batas berubah saat diklik */
+}
+/* warna merah ketika inputan salah */
+.color-red {
+  color: #f00;
+}
+.bold-text {
+  font-weight: bolder;
+}
