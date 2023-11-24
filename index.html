@@ -5,6 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1>Check Your <span>BMI</span></h1>
+      <h4>Enter your weight and height below to check your BMI result</h4>
+      <label>Put your weight in here (Kg)</label>
+      <input id="weightUser" type="text" />
+      <label>And your height in here (cm)</label>
+      <input id="heightUser" type="text" />
+      <button id="btn">Calculate BMI</button>
+      <div id="resultBmi">Result</div>
+    </div>
+    <script src="bmi.js"></script>
+  </body>
 </html>
